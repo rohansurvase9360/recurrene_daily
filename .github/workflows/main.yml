@@ -24,9 +24,9 @@ jobs:
             uses: Qualys/github_action_qiac@main
             id: qiac
             env:
-              URL: ${{ secrets.URLDEV }}
-              UNAME: ${{ secrets.USERNAMEDEV }}
-              PASS: ${{ secrets.PASSWORDDEV }}
+              URL: ${{ secrets.URL }}
+              UNAME: ${{ secrets.USERNAME }}
+              PASS: ${{ secrets.PASSWORD }}
             #with:
             #  directory: .
 
