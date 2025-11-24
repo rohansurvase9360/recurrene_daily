@@ -1,0 +1,1 @@
+This is a variables description file for the IAC project.
